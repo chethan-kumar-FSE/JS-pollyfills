@@ -22,4 +22,3 @@ function fn(...args) {
 const throttledLog = throttle(fn, 2000);
 setTimeout(() => throttledLog("Call 1"), 0); // At T=0ms
 setTimeout(() => throttledLog("Call 2"), 500); // At T=500ms
-setTimeout(() => throttledLog("Call 3"), 1000); // At T=1000ms
